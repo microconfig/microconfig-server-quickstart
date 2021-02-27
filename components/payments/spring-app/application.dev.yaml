@@ -1,0 +1,9 @@
+foo: dev-bar
+secret: ${VAULT-KV@/secret/dev.secret}
+
+logging:
+  level:
+    io:
+      microconfig:
+        spring:
+          sample: DEBUG

@@ -1,0 +1,19 @@
+#include log, vault
+
+#var dynamic.var1: default-value
+#var dynamic.var2: default-value
+
+spring:
+  main:
+    banner-mode: "off"
+
+config:
+  foo: default-bar
+  secret: default-secret
+  prop1: ${this@dynamic.var1}
+  prop2: ${this@dynamic.var2}
+
+logging:
+  config: config/logback.xml
+  level:
+    root: INFO

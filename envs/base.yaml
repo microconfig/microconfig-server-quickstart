@@ -1,0 +1,3 @@
+spring:
+  components:
+    - spring-app
