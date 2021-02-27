@@ -1,1 +1,2 @@
-#var microconfig.vault.address: https://vault.microconfig:8443
+#var microconfig.vault.address: https://vault.microconfig:8444
+#var microconfig.vault.auth: token
