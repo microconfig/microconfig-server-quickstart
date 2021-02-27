@@ -1,5 +1,5 @@
 foo: dev-bar
-secret: ${VAULT-KV@/secret/dev.secret}
+secret: ${VAULT-KV@secret/dev.secret}
 
 logging:
   level:
